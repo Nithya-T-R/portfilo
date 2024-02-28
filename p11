@@ -1,33 +1,67 @@
-class Employee
-{
-String empName;
+package bonus; class Employee
+
+String empName:
+
 int empNo;
-float salary;
-String empDesig;
+
 byte expYrs;
-void setEmployee(String name,int No,float Sal,String Des,byte Ex)
-{
-empName=name;
-empNo=No;
-salary=Sal;
-empDesig=Des;
-expYrs=Ex;
-}
-void getEmployee()
-{
-System.out.println(empName+"\t"+empNo+"\t"+salary+"\t"+empDesig+"\t"+expYrs+"\n");
-}
-}
-class DemoEmployee
-{
+
+String gender;
+
+double basicSalary;
+
+double bonus
+
+double netSalary:
+
+void setEmployee (String Name, int no, String sex, byte ex double
+
+basicsalary)
+
+emplName Name:
+
+empNo=no; gender-sex;
+
+expYrs=ex;
+
+basicSalary-basicsalary;
+
+void getEmployeeDetails()
+
+if(gender="female")
+
+bonus-basicSalary 10/100; net Salary-basicSalary+bonus;
+
+olso
+
+net Salary-basicSalary;
+
+System.out.println(empName+"\t"+empNo+"\t"+gender+"\t"+exp
+
+Yrs+"\t" +basicSalary+"\t"+bonus+"\t"+net Salary+"\n");
+
+class EmployeeDetails
+
 public static void main(String args[])
-{
-Employee rahul=new Employee();
-rahul.setEmployee("Rahul",128966,99999.0f,"PM",(byte)20);
-System.out.println("empName\t empNo\t salary \t empDesig\t expYrs\n");
-rahul.getEmployee();
-Employee rakesh=new Employee();
-rakesh.setEmployee("Rakesh",128969,98765.4f,"Project lead",(byte)10);
-rakesh.getEmployee();
+
+Employee Rahul new Employee();
+
+Rahul setEmployee("Rashmi", 128966, "female", (byte)20,100000.0d)
+
+System.out.println("empName\tempNo\tgender\texpYrs\tbasicSala
+
+ry\tbonus\thet5alary\n");
+
+Rahul.getEmployeeDetails(); Employee Rakesh=new Employee();
+
+Rakesh.setEmployee("Rakesh", 7851161, "male", (byte)25, 200000.0d);
+
+Rakesh.getEmployeeDetails(); (); Employee madhu-new Employee
+
+madhu.setEmployee("Madhu", 7851161, "female", (byte)25, 150000.0d);
+
+madhu.getEmployeeDetails();
+
 }
+
 }
