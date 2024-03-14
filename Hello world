@@ -1,0 +1,9 @@
+package Week1;
+
+public class Hello World (
+
+public static void main(String[] args)
+
+}
+
+System.out.println("Hello World...\n Welcome to programming with Java"); System.out.println("");
